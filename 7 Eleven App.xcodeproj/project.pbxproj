@@ -13,9 +13,6 @@
 		1FAD58C9223AC419008AE57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAD58C8223AC419008AE57E /* Assets.xcassets */; };
 		1FAD58CC223AC419008AE57E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAD58CA223AC419008AE57E /* LaunchScreen.storyboard */; };
 		1FAD58D6223AC55F008AE57E /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD58D5223AC55F008AE57E /* Transaction.swift */; };
-		1FAD58DE223C30E5008AE57E /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD58DD223C30E4008AE57E /* HTTPHandler.swift */; };
-		1FAD58E0223C311B008AE57E /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD58DF223C311B008AE57E /* JSONParser.swift */; };
-		1FAD58E2223C3155008AE57E /* TransactionDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD58E1223C3155008AE57E /* TransactionDataProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +24,6 @@
 		1FAD58CB223AC419008AE57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FAD58CD223AC419008AE57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FAD58D5223AC55F008AE57E /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		1FAD58DD223C30E4008AE57E /* HTTPHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = "../../../Documents/Swift Programs/Fuel Rewards/Fuel Rewards/HTTPHandler.swift"; sourceTree = "<group>"; };
-		1FAD58DF223C311B008AE57E /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONParser.swift; path = "../../../Documents/Swift Programs/Fuel Rewards/Fuel Rewards/JSONParser.swift"; sourceTree = "<group>"; };
-		1FAD58E1223C3155008AE57E /* TransactionDataProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionDataProcessor.swift; path = "../../../Documents/Swift Programs/Fuel Rewards/Fuel Rewards/TransactionDataProcessor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +63,6 @@
 				1FAD58CA223AC419008AE57E /* LaunchScreen.storyboard */,
 				1FAD58CD223AC419008AE57E /* Info.plist */,
 				1FAD58D5223AC55F008AE57E /* Transaction.swift */,
-				1FAD58E1223C3155008AE57E /* TransactionDataProcessor.swift */,
-				1FAD58DF223C311B008AE57E /* JSONParser.swift */,
-				1FAD58DD223C30E4008AE57E /* HTTPHandler.swift */,
 			);
 			path = "7 Eleven App";
 			sourceTree = "<group>";
@@ -147,12 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FAD58DE223C30E5008AE57E /* HTTPHandler.swift in Sources */,
-				1FAD58E0223C311B008AE57E /* JSONParser.swift in Sources */,
 				1FAD58C4223AC416008AE57E /* ViewController.swift in Sources */,
 				1FAD58C2223AC416008AE57E /* AppDelegate.swift in Sources */,
 				1FAD58D6223AC55F008AE57E /* Transaction.swift in Sources */,
-				1FAD58E2223C3155008AE57E /* TransactionDataProcessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
